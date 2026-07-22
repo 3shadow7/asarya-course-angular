@@ -26,7 +26,6 @@ export class Home {
   isActive = false;
   classes = 'd-flex';
 
-
   showAlert(status: boolean) {
     this.isActive = !this.isActive;
   }
