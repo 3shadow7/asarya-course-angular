@@ -28,6 +28,13 @@ export class Home {
 
 
   showAlert(status: boolean) {
-    this.isActive = status;
+    this.isActive = !this.isActive;
+  }
+
+
+  test(){
+    // console.log('test');
   }
 }
+
+
